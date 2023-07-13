@@ -3,21 +3,50 @@ body, main {
   }
   
   body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
     flex-direction: column;
+    border: 2px solid #000000;
   }
   
   main {
-    flex: auto;
+    padding: 0; /* Remove padding to eliminate spacing */
+    background-color: #ffffff;
     flex-direction: row;
+    flex: auto;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #3182b8;
+  }
+  
+  header .logo {
+    color: #0a09099f;
+    font-size: 24px;
   }
   
   article {
+    padding: 20px;
+    border-radius: 0.5px;
+    background-color: #256ca7;
     flex: 2;
     overflow-y: auto;
   }
   
   aside {
+    padding: 20px;
+    border-radius: 0.5px;
+    background-color: #256ca7;
     flex: 1;
     overflow-y: auto;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #3182b8;
   }
   
