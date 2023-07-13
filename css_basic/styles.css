@@ -34,6 +34,8 @@ body, main {
     background-color: #256ca7;
     flex: 2;
     overflow-y: auto;
+    text-align: justify; /* Align text to justify */
+    color: #ffffff; /* Set text color to white */
   }
   
   aside {
@@ -42,11 +44,14 @@ body, main {
     background-color: #256ca7;
     flex: 1;
     overflow-y: auto;
+    text-align: justify; /* Align text to justify */
+    color: #ffffff; /* Set text color to white */
   }
   
   footer {
     padding: 20px;
     text-align: center;
     background-color: #3182b8;
+    color: #ffffff; /* Set text color to white */
   }
   
