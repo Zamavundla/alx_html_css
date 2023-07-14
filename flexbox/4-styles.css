@@ -194,7 +194,7 @@
   
   [class*='col-'] {
     /* Remove float: left */
-    padding: 0; /* Remove the padding declaration */
+    /*padding: 0; /* Remove the padding declaration */
     margin: 1rem; /* Set the margin to 1rem */
   }
     
